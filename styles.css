@@ -1,6 +1,6 @@
 <style type=text/css>
 
-  body{margin:0; font-size:12px; background:#666;}
+  body{font-size:12px; background:#666;}
   #switcher{width:400px; height:300px; margin:100px auto 0;}
   #tab_nav{margin:0; padding:0; height:25px; line-height:24px;}
   #tab_nav li{float:left; margin:0 3px; list-style:none; border:1px solid #999; border-bottom:none; height:24px; width:60px; text-align:center; background:#FFF;}
