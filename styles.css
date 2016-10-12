@@ -1,11 +1,12 @@
 <style type=text/css>
 
-  body{font-size:12px; background:#666;}
+  body{font-size:12px; background:#FAFAFA;}
   #switcher{margin:30px auto 0;}
   #tab_nav{margin:0; padding:0; height:25px; line-height:24px;}
-  #tab_nav li{float:left; margin:0 0px; list-style:none; border-bottom:none; height:24px; width:75px; text-align:left; background:#FFF;}
+  #tab_nav li{float:left; margin:0 0px; list-style:none; border-bottom:none; height:24px; width:75px; text-align:left; background:#FAFAFA;}
   a{font:18px/24px "PingFangSC-Regular", Verdana, Arial, Helvetica, sans-serif; color:#9E9E9E; text-decoration:none;}
   a:hover{color:#212121;}
-  #tab_content{height:273px; font:4em/273px "PingFangSC-Regular", Verdana, Arial, Helvetica, sans-serif; text-align:center; background:#FFF; overflow:hidden;}
+  #tab_content{height:273px; font:4em/273px "PingFangSC-Regular", Verdana, Arial, Helvetica, sans-serif; text-align:center; background:#FAFAFA; overflow:hidden;}
   #t_1,#t_2,#t_3{width:100%; height:273px;}
-  #headline{margin-top: 30px;border-top:0.2px solid #FAFAFA}
+  #headline{margin-top: 30px;border-top:0.2px solid #E0E0E0}
+  .goto{color: blue;background: #D8D8D8;border-radius: 8px;}
