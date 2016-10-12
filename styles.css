@@ -4,9 +4,23 @@
   #switcher{margin:30px auto 0;}
   #tab_nav{margin:0; padding:0; height:25px; line-height:24px;}
   #tab_nav li{float:left; margin:0 0px; list-style:none; border-bottom:none; height:24px; width:75px; text-align:left; background:#FAFAFA;}
-  a{font:18px/24px "PingFangSC-Regular", Verdana, Arial, Helvetica, sans-serif; color:#9E9E9E; text-decoration:none;}
-  a:hover{color:#212121;}
-  #tab_content{height:273px; font:4em/273px "PingFangSC-Regular", Verdana, Arial, Helvetica, sans-serif; text-align:center; background:#FAFAFA; overflow:hidden;}
-  #t_1,#t_2,#t_3{width:100%; height:273px;}
+  #tab_nav a{font:18px/24px "PingFangSC-Regular", Verdana, Arial, Helvetica, sans-serif; color:#9E9E9E; text-decoration:none;}
+  #tab_nav a:hover{color:#212121;}
+  #tab_content{height:273px; background:#FAFAFA; overflow:hidden;}
+  #t_1,#t_2,#t_3{height:500px;}
   #headline{margin-top: 30px;border-top:0.2px solid #E0E0E0}
-  .goto{color: blue;background: #D8D8D8;border-radius: 8px;}
+  .goto {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  width: 190px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;}
+
+.goto:hover {
+  background: #693cfc;
+  text-decoration: none;}
