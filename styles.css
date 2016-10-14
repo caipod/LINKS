@@ -7,12 +7,13 @@
   #tab_nav a{font:18px/24px 'Montserrat', sans-serif; color:#9E9E9E; text-decoration:none;padding-right: 20px}
   #tab_nav a:hover{color:#212121;}
   
-  #headline{margin-top: 30px;border-top:0.2px solid #E0E0E0}
+  #headline{margin-top: 30px solid #E0E0E0}
   
   #canvas_1 {
+  font-family: 'Arvo', serif;
   margin-top: 30px;
   height: 1080px;
-  border: 1px solid #000;
+  border: 0px solid #000;
   overflow: hidden;
 }
   #canvas_2 {
@@ -42,3 +43,10 @@
 .goto:hover {
   background: #693cfc;
   text-decoration: none;}
+
+.centerText {
+    text-align: center;
+}
+
+.title{text-align: center;}
+
