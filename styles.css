@@ -19,9 +19,10 @@
   overflow: hidden;
 }
   #canvas_2 {
+  font-family: 'Arvo', serif;
   margin-top: 30px;
   height: 1080px;
-  border: 1px solid #000;
+  border: 0px solid #000;
   overflow: hidden;
 }
   #canvas_3 {
