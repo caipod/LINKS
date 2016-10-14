@@ -28,7 +28,7 @@
   #canvas_3 {
   margin-top: 30px;
   height: 1080px;
-  border: 1px solid #000;
+  border: 0px solid #000;
   overflow: inherit;
 }
   .goto {
