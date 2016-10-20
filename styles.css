@@ -1,12 +1,27 @@
 <style type=text/css>
+  /* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
 
-  body{font-size:12px; background:#FAFAFA;}
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+  body{background:#FAFAFA;}
+
   #switcher{margin-left: 0;
     margin-top: 20px;
     margin-bottom: 20px;}
+
   #tab_nav{margin:0; padding:0px; height:25px; line-height:24px;}
   #tab_nav li{float:left; margin:0 0px; list-style:none; border-bottom:none; height:24px; width:75px; text-align:left; background:#FAFAFA;}
-  #tab_nav a{font:18px/24px 'Montserrat', sans-serif; color:#9E9E9E; text-decoration:none;padding-right: 20px}
+  #tab_nav a{font:18px 'Montserrat', sans-serif; color:#9E9E9E; text-decoration:none;padding-right: 20px}
   #tab_nav a:hover{color:#212121;}
   
   #headline{margin-top: 30px solid #E0E0E0}
@@ -31,26 +46,14 @@
   border: 0px solid #000;
   overflow: inherit;
 }
-  .goto {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  width: 190px;
-  font-family: 'Montserrat', sans-serif; 
-  color: #ffffff;
-  font-size: 20px;
-  background: #3498db;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;}
-
-.goto:hover {
-  background: #693cfc;
-  text-decoration: none;}
 
 .centerText {
     text-align: center;
 }
 
 .title{text-align: center;}
-.material-icons{color: #2196F3;}
 
+.material-icons.md-48 { 
+  font-size: 48px; 
+  color: #3F51B5;
+}
