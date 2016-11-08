@@ -24,7 +24,7 @@
   #tab_nav a{font:18px 'Montserrat', sans-serif; color:#9E9E9E; text-decoration:none;padding-right: 20px}
   #tab_nav a:hover{color:#212121;}
   
-  #headline{margin-top: 30px solid #E0E0E0}
+  #headline{margin-top: 30px；border:0px; color:  #E0E0E0}
   
   #canvas_1 {
   font-family: 'Arvo', serif;
